@@ -19,6 +19,7 @@ from .join import Join
 from .lookup import Lookup, LookupAll
 from .loop import Loop
 from .merge import Merge
+from .multi_include import MultiInclude
 from .not_ import Not
 from .op import Op
 from .typeop import IsBoolean, IsDict, IsInteger, IsList, IsNone, IsNumber, IsString
@@ -59,6 +60,7 @@ __all__ = [
     'Loop',
     'MD5',
     'Merge',
+    'MultiInclude',
     'Not',
     'Op',
     'SHA1',

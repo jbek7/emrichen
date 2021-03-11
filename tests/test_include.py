@@ -63,7 +63,6 @@ foo: !Var foo
 ''', filename=filename)
     assert template.enrich({}) == [{'foo': 5}]
 
-
 def test_consecutive_include_at_top_level():
     filename = os.path.join(BASE_DIR, 'test_consecutive_include_at_top_level.in.yml')
     template = Template.parse('''
